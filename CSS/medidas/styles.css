@@ -1,0 +1,18 @@
+body{
+    height: 100vh;
+
+}
+.Registro{
+    width: 200px;
+    background: #680909;
+    text-align: center;
+    padding:20px;
+    font-family: sans-serif;
+    margin:auto;
+    border-top:2px solid #9cfd;
+}
+input{
+    margin-bottom: 10px;
+    border-top:2px solid #9cfd00;
+    text-align: center;
+}
