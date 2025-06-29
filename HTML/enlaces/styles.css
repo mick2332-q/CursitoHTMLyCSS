@@ -1,8 +1,8 @@
 body{
-    min-height: 100vh;
+    min-height: 100vh;/*Añadir esto para que el linear-gradient se aplique a toda la pagina y no tenga errores*/
     margin: 0px;
     font-family: sans-serif;
-    background: linear-gradient(to bottom , #171717, #616161)
+    background: linear-gradient(to bottom , #171717, #616161);
 }
 
 
@@ -84,4 +84,9 @@ legend{
     font-family: sans-serif;
     text-shadow: 0px 0px 10px #c6c6c6;
     color: #c7c7c7;
+}
+
+a{
+    color: #6ac1fb;
+    text-decoration: none;
 }

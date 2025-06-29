@@ -1,0 +1,13 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to top, #666, #333) no-repeat;
+}
+details{
+    margin: 10px 50px;
+    background: #5d5d5d;
+    padding: 10px;
+    border: 1px solid #c6c5c5;
+    border-radius: 10px;
+}
+
