@@ -1,0 +1,11 @@
+body{
+    color:brown;
+    font-family: sans-serif;
+}
+/*inherit para heeredar lo de la caja superior*/
+h1{
+    color: inherit;
+}
+p{
+    color:blue;
+}

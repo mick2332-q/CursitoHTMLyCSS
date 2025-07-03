@@ -1,0 +1,18 @@
+h1{
+    color:red;
+}
+h1{
+    color: blue;
+}
+
+#titulo{
+    color: aqua;
+}
+
+.titulo{
+    color:green;
+}
+
+/*la especificidad es el orden gerarquico en el que van a tomar los atributos id es mas especifico que class y clas mas especifico que si no lo tuviera*/
+
+/*la casacada funciona cuando se tiene el mismo novel de especificidad pero se cambia el atributo luego funciona de arriba abajo es decir se la da prioridad al que es esta mas abajo*/

@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+img{
+    width: 400px;
+    height: 200px;
+    border: 2px solid #000;
+    margin-top: 50px;
+    margin-left: 50px;
+    object-fit: contain; /* Cambia a 'contain' o 'fill' para ver diferentes efectos */
+}
+
+
+

@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div,body{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+iframe{
+    flex:1;
+    height: 100%;
+}

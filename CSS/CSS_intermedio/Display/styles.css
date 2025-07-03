@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: #48e;
+    font-family: sans-serif;
+}
+
+.nav__list{
+    margin: 0;
+    text-align: center;
+}
+.nav__item{
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+.nav__link{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.8em;
+    padding:10px 5px;
+    border-radius: 5px;
+}
+.nav__link:hover{
+    background-color: rgb(139, 199, 236);
+}
+
+.item--modificado{
+    color:#48e;
+    border:1px solid rgb(248, 248, 249);
+    border-radius: 5px;
+    background: #ffffff;
+    display: inline-block;
+    padding:10px 10px;
+    margin-left:100px;
+}
+
+.item--modificado:hover{
+    background-color: transparent;
+    color: aliceblue;
+}

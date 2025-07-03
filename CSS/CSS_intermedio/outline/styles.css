@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    margin:auto;
+    margin-top: 20px;;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 10px solid black;
+}
+
+.box:hover{
+    outline: 10px solid blue;
+}

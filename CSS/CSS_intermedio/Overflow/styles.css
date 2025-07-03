@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #cdcdcd;
+}
+.box{
+    color: #ff0000;
+    background: rgb(255, 255, 255);
+    border: 2px solid #000;
+    width:220px;
+    height:220px;
+    font-weight: bold;
+}
+
+.box--normal{
+    position: relative;
+    margin: auto;
+    overflow: auto;
+    margin-top: 50px;
+    left: 0px;
+}
+

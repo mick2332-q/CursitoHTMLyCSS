@@ -1,0 +1,23 @@
+/*Selector por atributo*/
+img[src="descarga.jpg"]{
+    width: 100%;
+}
+
+/*Para imagenes que terminan con algo $ y para imagenes que empiezan ^*/
+
+/*Para seleccionar con condición por ejempli li que esten dentro de un ul*/
+
+ul li {
+    color:red;
+
+}
+
+/*Para que sena hijos directos tiene que usarse >*/
+li > em{
+    color:blue;
+}
+
+/*Selector de hermano adyacente*/
+h1 + p{
+    color:#0b5fc6;
+}

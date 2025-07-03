@@ -1,0 +1,12 @@
+h1::first-letter{
+    color:red;
+    font-size: 3em;
+    letter-spacing: -10px;
+}
+div::first-line{
+    color:#83e
+}
+
+div::selection{
+    background-color: #83e;
+}

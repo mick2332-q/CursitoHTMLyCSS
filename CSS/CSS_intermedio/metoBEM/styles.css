@@ -1,0 +1,21 @@
+.lista{
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+.lista--vieja{
+    opacity: 0.3;
+    background: #d0d0d0;
+}
+.lista__item{
+    color: rgb(75, 75, 75);
+    padding:10px 0px;
+    list-style: square;
+    
+}
+.item--danino{
+    color:red;
+}
+
+.item--importante{
+    color:rgb(21, 0, 255);
+}

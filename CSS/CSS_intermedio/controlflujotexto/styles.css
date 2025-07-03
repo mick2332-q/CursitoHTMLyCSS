@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #cdcdcd;
+}
+.box{
+    color: #000000;
+    background: rgb(255, 255, 255);
+    border: 1px solid #000;
+    width:220px;
+    height: 210px;
+    font-weight: bold;
+}
+
+.box--normal{
+    position: relative;
+    margin: auto;
+    text-wrap: pretty;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 50px;
+    left: 0px;
+}
+

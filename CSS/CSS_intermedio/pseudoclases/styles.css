@@ -1,0 +1,22 @@
+h1:hover{
+    font-family: sans-serif;
+    color:#48e;
+    
+}
+/*Mientras se haga click en el elemento*/
+h1:active{
+    color:rgb(170, 97, 68);
+}
+/*Seleccionamos el pirmer elento de una lista*/
+li:first-child{
+    color:rgb(38, 255, 0)
+}
+
+/*Seleccionamos cualquier elento de una lista*/
+li:nth-child(2){
+    background: brown;
+}
+/*Seleccionamos el ultimo elento de una lista*/
+li:last-child{
+    color:#48e
+}
