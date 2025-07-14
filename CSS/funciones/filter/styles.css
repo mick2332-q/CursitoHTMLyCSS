@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+}
+.box{
+    margin: auto;
+    padding: 20px;
+    background-color: #48e;
+    filter: grayscale(1);
+    transition: filter 0.3s ease;
+}
+
+.box:hover{
+    filter: grayscale(0);
+}

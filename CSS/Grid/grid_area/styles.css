@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body,div{
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows:  repeat(3,150px);
+    gap: 10px;
+    padding: 10px;
+    justify-items: center;/*Mueve el hijo de la celda */
+    justify-content: center;/*Mueve las celdas*/
+}
+
+.grid-item:first-child{
+    justify-self: start;
+    background-color: #e66;
+}
+.grid-item{
+    background-color: #48e;
+    padding: 20px;
+    font-size: 30px;
+    max-width: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.grid-item:hover{
+    opacity: 0.8;
+}

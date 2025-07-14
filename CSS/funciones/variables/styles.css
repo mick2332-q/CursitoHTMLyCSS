@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    padding: 20px;
+    --colorpricipal:#48e
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    --colorpricipal:#f44;
+    border: 6px solid #000;
+    margin: 120px  auto;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    font-size: clamp(2.4rem,2vw,4rem);
+    padding: 0 40px;
+}
+
+.box:first-child{
+    background-color: var(--colorpricipal);
+}
+
+.box:nth-child(2){
+    color: var(--colorpricipal);
+}
+
+h1{
+    font-size: 2.2em;
+    margin-bottom: 0;
+}
+
+body > p{
+    font-size: 40px;
+    color: var(--colorpricipal);
+}

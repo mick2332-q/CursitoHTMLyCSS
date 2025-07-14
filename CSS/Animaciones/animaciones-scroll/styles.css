@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.crecedor{
+    height: 100vh;
+}
+
+.box-2{
+    background-color: #48e;
+    padding: 20px;
+    animation: llenar-barra both ;
+    animation-timeline: view();
+    animation-range: contain 0%;
+}
+
+
+@keyframes llenar-barra{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+        background-color: #f33;
+    }
+}
